@@ -1,0 +1,32 @@
+{
+  "name": "web_anime",
+  "version": "1.0.0",
+  "description": "Watching Anime movies directly from the API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterManh66/web_anime.git"
+  },
+  "keywords": [
+    "anime",
+    "hhtq",
+    "hoathinh"
+  ],
+  "author": "ManhTran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasterManh66/web_anime/issues"
+  },
+  "homepage": "https://github.com/MasterManh66/web_anime#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
